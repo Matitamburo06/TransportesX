@@ -72,6 +72,7 @@ h2{
     font-weight: 400;
 }
 
+
 .bienvenidos{
 width: 75%;
 padding-right: 10px;
@@ -201,3 +202,159 @@ color: #2e64a1;
 }
 
 
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+
+
+.galeria img{
+width: 18%;
+border: 1px solid #ddd;
+padding: 0.3em;
+box-sizing: border-box;
+margin-bottom: 20px;
+margin-right: 2%;
+}
+
+.contacto{
+    display: flex;
+    gap: 24px;
+
+}
+.contacto div{
+    width: 100%;
+}
+
+.datos p{
+    font-size: 14px;
+
+}
+
+.datos ul li{
+    font-size: 13px;
+}
+
+.formulario p{
+display: flex;
+}
+
+.formulario p label{
+
+    min-width: 80px;
+}
+
+.formulario p label{
+    display: flex;
+    align-items: center;
+
+}
+
+.formulario p:nth-child(4){
+    align-items: start;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 150px;
+
+}
+
+.formulario input[type="sumbit"]{
+background: #6da9ed;
+box-shadow: 0 0 10px rgba(0,0,0,0.4);
+color: white;
+font-size: 16px;
+padding: 6px 20px;
+width: auto;
+position: relative;
+left: 5rem;
+cursor: pointer;
+}
+
+.formulario input[type="sumbit"]:hover{
+    background-color: #2e64a1;
+}
+
+
+.imagen2 h1 img{
+    display: flex;
+    width: 40%;
+    border: 1px solid #ddd;
+padding: 0.3em;
+box-sizing: border-box;
+margin-bottom: 20px;
+margin-right: 2%;
+}
+
+.imagen2 h2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: xx-large;
+margin: auto;
+padding: 16px 0;
+}
+
+.sidebar1{
+ text-align:left;
+ width: 75%;
+padding-right: 10px;
+box-sizing: border-box;
+
+}
+
+.clasp3 p img{
+
+    width: 40%;
+border: 1px solid #ddd;
+padding: 0.3em;
+box-sizing: border-box;
+margin-bottom: 20px;
+margin-right: 2%;
+}
+
+.sidebar2{
+    text-align:left;
+    width: 75%;
+   padding-right: 10px;
+   box-sizing: border-box;
+}
+
+.clasp6 p img{
+    width: 40%;
+    border: 1px solid #ddd;
+    padding: 0.3em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+
+
+}
+
+.sidebar3{
+    text-align:left;
+    width: 75%;
+   padding-right: 10px;
+   box-sizing: border-box;
+}
+
+.clasp9 p img{
+    width: 40%;
+    border: 1px solid #ddd;
+    padding: 0.3em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+
+}
+
+.clasp12 p img{
+    width: 40%;
+    border: 1px solid #ddd;
+    padding: 0.3em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+
+}
